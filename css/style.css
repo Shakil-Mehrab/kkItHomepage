@@ -15,6 +15,9 @@ li{
 
 }
 /********** START COMMON CLASS *************/
+.brand_color{
+    color: #ED2024;
+}
 .btn_color{
 background: #ED2024;
 border: none;
@@ -138,6 +141,8 @@ background: #D1B700;
 background: #F5F6FA;
 }
 .facility h2{
+color: #ED2024;
+font-weight: bold;
 padding: 15px 0;
 text-align: center;
 justify-content: center;
@@ -166,7 +171,7 @@ background: #fff;
 /*padding-left: 80px;*/
 }
 .service h2{
-color: #A6042B;
+color: #ED2024;
 text-align: center;
 font-weight: bold;
 padding-top: 25px;
@@ -221,22 +226,13 @@ padding-bottom: 50px;
 .career h2 {
 padding-left: 12px;
 color: #ED2024;
-font-size: 35px;
-font-weight: 600;
+/*font-size: 35px;*/
+font-weight: bold;
 }
 .career_form {
 width: 450px;
 }
-.career_input {
-width: 410px;
-padding: 6px;
-margin: 15px 15px;
-border-radius: 2px;
-border-color:#CED4DA !important;
-}
-.career_img_mt {
-/*margin-top: 30x;*/
-}
+
 .career_img {
 width: 600px;
 height: 350px;
