@@ -32,7 +32,7 @@ background: #ED2024 !important;
 /********** START OF HEADER*************/
 
 nav {
-   height: 80px;
+   min-height: 80px;
    background: #F5F6FA;
 
 }
