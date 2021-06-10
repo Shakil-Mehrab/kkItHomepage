@@ -219,23 +219,13 @@ font-weight: 500;
 /********** END OF SERVICE SECTION *****************/
 /********** START OF CAREER SECTION *****************/
 .career{
-margin-bottom: 40px;
-background: #F5F6FA;
-padding-bottom: 50px;
-}
-.career h2 {
-padding-left: 12px;
-color: #ED2024;
-/*font-size: 35px;*/
-font-weight: bold;
-}
-.career_form {
-width: 450px;
+    background-color: #F5F6FA;
+    padding: 30px 0px;
 }
 
-.career_img {
-width: 600px;
-height: 350px;
+.career .img_placing{
+    display: flex;
+    height: 310px;
 }
 /********** END OF CAREER SECTION *******************/
 /********** START OF CONTACT SECTION *******************/
@@ -385,5 +375,8 @@ font-size: 17px;
     .service_detail a{
         position: unset;
         margin-top: 20px;
+    }
+    .career .img_placing{
+        display: none;
     }
   }
