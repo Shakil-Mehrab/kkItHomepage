@@ -5,6 +5,9 @@ padding: 0;
 box-sizing: border-box;
 font-family: 'Poppins', sans-serif;
 }
+a{
+    text-decoration: none;
+}
 ul{
     padding: 0;
     margin: 0;
@@ -12,7 +15,7 @@ ul{
 li{
     padding: 0;
     margin: 0;
-
+    list-style: none;
 }
 /********** START COMMON CLASS *************/
 .brand_color{
@@ -22,8 +25,39 @@ li{
 background: #ED2024;
 border: none;
 }
+.btn-danger{
+background: #ED2024 !important;
+}
 /********** END OF COMMON CLASS *************/
 /********** START OF HEADER*************/
+
+nav {
+   height: 80px;
+   background: #F5F6FA;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*.navbar {
 background: #000;
 padding: 1rem 8rem;
@@ -147,12 +181,7 @@ text-align: center;
 font-size: 18px;
 font-weight: 400;
 }
-.service ul li{
-list-style: none;
-}
-.s-links a{
-text-decoration: none !important;
-}
+
 .service ul li a{
 color: #000;
 font-weight: 500;
@@ -228,6 +257,9 @@ background-color: #515f63;
 padding: 15px 30px;
 border-radius: 15px;
 height: 514px;
+align-items: center;
+    justify-content: center;
+    display: flex;
 
 }
 
@@ -251,9 +283,6 @@ background: #EB4D4B;
 color: #fff;
 border: 1px solid #EB4D4B;
 }
-.f-links a{
-text-decoration: none !important;
-}
 .f-links a:hover{
 color: #EB4D4B !important;
 font-weight: bold;
@@ -269,7 +298,7 @@ font-size: 17px;
         display: none;
     }
     .fot_icon {
-        
+
     }
     .fot_subs_btn {
         padding-top: 10px;
