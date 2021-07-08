@@ -401,8 +401,343 @@ footer {
 }
 
 .review i{
+    color: #FFB606 !important;
+}
+
+/*********************** VIEW COURSE WEB DESIGN *******************/
+
+/* ====top breadcrumb style==== */
+
+.breadcrumb {
+    background-color: transparent !important;
+    font-weight: 600;
+}
+
+.breadcrumb a {
+    color: #666 !important;
+    font-family: 'Roboto', sans-serif !important;
+    font-weight: 600;
+    text-decoration: none !important;
+}
+
+.breadcrumb a:hover {
+    color: #FEBA18 !important;
+}
+
+.breadcrumb-item+.breadcrumb-item::before {
+    font-family: "Font Awesome 5 Free";
+    content: ">" !important;
+}
+
+
+/* ====top breadcrumb style end==== */
+
+
+/* ====top banner style==== */
+
+.top-banner {
+    background: #442E66 !important;
+    height: 250px;
+    color: #Fff;
+    font-family: 'Roboto', sans-serif !important;
+}
+
+.course-details {
+    display: inline-flex !important;
+}
+
+.course-details div {
+    margin-right: 20px !important;
+}
+
+.author-info img {
+    width: 46px;
+    height: 46px;
+}
+
+.author-info p,
+.Category p {
+    color: #999 !important;
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif !important;
+    font-weight: 400;
+    line-height: 1.5em;
+}
+
+.author-info h6 a {
+    font-weight: 500px !important;
+    font-family: 'Roboto', sans-serif !important;
+    color: #fff;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+.author-info h6 a:hover {
     color: #FFB606;
 }
+
+.Category i {
+    color: #FFB606;
+    font-size: 45px;
+    margin-right: 8px;
+}
+
+.Category ul {
+    color: #Fff;
+    margin: 0px !important;
+    padding: 0px !important;
+}
+
+.Category ul li {
+    list-style: none;
+    display: inline;
+}
+
+.Category ul li a {
+    color: #fff !important;
+    text-decoration: none !important;
+    font-size: 16px !important;
+    font-family: 'Roboto', sans-serif !important;
+    font-weight: 400;
+    text-transform: capitalize;
+}
+
+.Category ul li a:hover {
+    color: #FFB606 !important;
+}
+
+.Category ul li+li::before {
+    content: "|" !important;
+    color: #fff !important;
+    margin: 0px 5px;
+}
+
+.review i {
+    color: #999;
+}
+
+.review p {
+    font-size: 14px;
+    font-weight: 500;
+    font-family: 'Roboto', sans-serif !important;
+}
+
+.course-introduction ol {
+    padding-top: 20px;
+    list-style: none !important;
+    margin-left: 23px;
+}
+
+.course-introduction ol li {
+    display: inline;
+    margin-right: 50px;
+    list-style: none !important;
+    font-weight: 600;
+    text-transform: capitalize;
+    font-family: 'Roboto', sans-serif !important;
+}
+
+.course-introduction ol li i {
+    color: #FFB606;
+    font-size: 18px;
+}
+
+.course-price .price {
+    border-radius: 0px !important;
+    background-color: #fff;
+    position: fixed;
+    font-family: 'Roboto', sans-serif !important;
+}
+
+.price-body {
+    padding: 30px;
+    text-align: center;
+    box-shadow: 0px 0px 15px -3px rgba(0, 0, 0, 1);
+}
+
+.course-price img {
+    margin: 0px !important;
+    padding: 0px !important;
+    border-radius: 0px !important;
+    width: 100% !important;
+    height: auto !important;
+}
+
+.course-price .btn {
+    margin-top: 20px;
+    border: 1px solid #ccc;
+    padding: 10px 25px 10px 25px;
+    text-transform: capitalize;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.course-price .btn:hover {
+    color: #fff;
+    background-color: #FFB606;
+    border: 1px solid #FFB606;
+}
+
+
+/* ====top banner end==== */
+
+
+/* ====course-nav-tab style==== */
+
+.course-nav-tab .nav-tabs {
+    background: #F1F2F8 !important;
+    margin: 30px 0px;
+    display: -webkit-inline-box;
+    border: none !important;
+    font-family: 'Roboto', sans-serif !important;
+}
+
+.course-nav-tab .nav-tabs .nav-link {
+    border: 1px solid rgba(204, 204, 204, 0.3) !important;
+    padding: 20px 50px !important;
+    font-size: 16px;
+    font-weight: 700;
+    text-align: center;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    color: #000 !important;
+}
+
+.course-nav-tab .nav-item .active {
+    background-color: #fff !important;
+    color: #FFB606 !important;
+    border-top: 4px solid #FFB606 !important;
+}
+
+
+/* ====course-nav-tab content style==== */
+
+.overview-tab h5 {
+    color: #333;
+    font-size: 18px;
+    font-weight: 500;
+    font-family: 'Roboto', sans-serif !important;
+}
+
+.overview-tab p {
+    color: #666;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 26px;
+    font-family: 'Roboto', sans-serif !important;
+}
+
+.tab-content ul li {
+    margin-left: 20px;
+    padding: 5px;
+    color: #333333;
+    font-weight: 500;
+}
+
+.curriculum-tab .btn-link {
+    font-weight: 400;
+    color: #333;
+    text-decoration: none !important;
+}
+
+.curriculum-tab .btn-link:hover {
+    color: #FFB606 !important;
+}
+
+.curriculum-tab .btn-link::before {
+    content: "\ea0e \3000";
+    font-family: "Material Icons" !important;
+    font-size: 24px !important;
+    margin: 0px !important;
+    color: #FFB606 !important;
+    margin-left: auto !important;
+}
+
+.curriculum-tab .btn-link::after {
+    content: "\3000 \e897";
+    font-family: "Material Icons" !important;
+    font-weight: 400;
+    color: #442E66 !important;
+}
+
+.instructor img {
+    width: 100px;
+    height: 100px;
+    text-align: center !important;
+}
+
+.instructor a {
+    color: #333 !important;
+    text-decoration: none !important;
+    font-weight: 500;
+    font-size: 22px;
+}
+
+.instructor a:hover {
+    color: #FFB606 !important;
+}
+
+.review-count h2 {
+    font-size: 60px !important;
+    text-align: center !important;
+}
+
+.review-count ul li i {
+    text-align: center !important;
+}
+
+
+/* .review-count ul li  */
+
+.star-icon {
+    list-style: none;
+    display: inline;
+    margin: auto;
+    padding: 0px;
+    color: #999999 !important;
+}
+
+.star-icon::after {
+    content: "\e838 \e838 \e838 \e838 \e838 ";
+    font-family: "Material Icons" !important;
+    font-size: 24px;
+    font-weight: 500;
+    display: flex;
+    align-items: center !important;
+    justify-content: center !important;
+}
+
+.review-count p {
+    font-size: 18px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.review-number,
+.review-bar {
+    height: 20px !important;
+    margin: 10px 0px;
+}
+
+#comment{
+    display: flex;
+    background-color: white;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-left: 100px;
+    margin-right: 520px;
+    padding: 80px 50px;
+}
+
+#post{
+    text-decoration: none;
+    background-image: linear-gradient(red,tomato);
+    padding: 10px 40px;
+    border-radius: 5px;
+    font-weight: 700;
+    color: white;
+}
+
 
 
 /*****************************************************************************
